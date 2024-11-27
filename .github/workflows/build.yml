@@ -27,18 +27,11 @@ jobs:
       - name: Run build
         run: npm run build  # 如果你的项目有构建步骤
 
-      - name: ls files
-        run: ls
-        
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Create dist.zip
+        run: zip -r dist.zip dist  # 将 dist 目录打包为 dist.zip
+
+      - name: Upload dist.zip
+        uses: actions/upload-artifact@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist  # 指定发布目录
-
-      - name: Deploy to GitHub 
-        uses: actions/deploy-pages@v4
-
-      
-      
-      
+          name: dist-zip
+          path: dist.zip  # 上传 dist.zip 文件
