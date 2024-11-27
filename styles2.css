@@ -1,9 +1,8 @@
-
 /**
- * The text could use some tweaks.
+ * 文字可以做一些调整。
  */
 
-.md {
+ .md {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -23,11 +22,11 @@
 }
 
 /**
- * That's better.
+ * 这样好多了。
  *
- * If you want to contact me, use the PGP keys on the left.
+ * 如果你想联系我，可以使用左边的PGP密钥。
  *
- * You know, if you're into that sort of thing.
+ * 你知道的，如果你对这种事情感兴趣的话。
  */
 
 #pgp-text {

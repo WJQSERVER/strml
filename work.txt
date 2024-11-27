@@ -41,9 +41,3 @@ Open Source
 * backbone.queryRouter
 * backbone.layoutManager
 * Mongoose-Filter-Denormalize
-
-Photos
-------
-
-* [Party Rock is in the hou](/img/partyrock1.jpg)
-  * [se tonight](/img/partyrock2.jpg)
