@@ -17,22 +17,7 @@ WJQSERVER-STUDIO
 Projects
 --------
 
-* GHProxy - A reverse proxy for GitHub.com > https://github.com/WJQSERVER-STUDIO/ghproxy
-
-Open Source
------------
-
-* Babel
-* React-Grid-Layout
-* React-LocalStorage
-* React-Router-Component
-* React-Resizable
-* React-Draggable
-* OpenBazaar
-* JSXHint
-* BTChip-Signing-Tools
-* TextFit
-* Imgur-to-GFYcat
-* backbone.queryRouter
-* backbone.layoutManager
-* Mongoose-Filter-Denormalize
+* GHProxy - 对Github文件进行可控易管理的代理服务 > https://github.com/WJQSERVER-STUDIO/ghproxy
+* Tools-Stable - WJQSERVER-STUDIO 推出的Linux脚本工具箱 > https://github.com/WJQSERVER-STUDIO/tools-stable
+* IP - IP地址查询工具 > https://github.com/WJQSERVER-STUDIO/ip
+* QL-Toka - 为xx登陆对接青龙而开发的外围框架
