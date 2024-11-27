@@ -1,28 +1,23 @@
-STRML.net
+WJQSERVER
 =========
 
-Samuel Reed
-Co-Founder, BitMEX (The Bitcoin Mercantile Exchange)
-Full-Stack / NodeJS / DevOps
+WJQSERVER
+WJQSERVER-STUDIO
+后端/运维 Go/Bash/C
 
-Contact
--------
+联系方式
+--------
 
-* sam at bitmex dot com
-* samuel.trace.reed at gmail dot com
-* STRML on irc.freenode.net
-* @STRML_ on Twitter
-* STRML#7665 on Discord
+* Email: wjqserver@wjqserver.com
+* Telegram: @WJQserverGroup
+* Nodeseek: @WJQSERVER
+* Github: @WJQSERVER
+* Blog: https://blog.wjqserver.com/
 
 Projects
 --------
 
-* www.BitMEX.com
-* www.Securesha.re
-* www.Tixelated.com
-* www.BrightestYoungThings.com
-and of course...
-* www.strml.net
+* GHProxy - A reverse proxy for GitHub.com > https://github.com/WJQSERVER-STUDIO/ghproxy
 
 Open Source
 -----------
