@@ -31,7 +31,7 @@ jobs:
         run: zip -r dist.zip dist  # 将 dist 目录打包为 dist.zip
 
       - name: Upload dist.zip
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: dist-zip
           path: dist.zip  # 上传 dist.zip 文件
