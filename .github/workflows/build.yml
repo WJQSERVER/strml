@@ -29,10 +29,12 @@ jobs:
 
       - name: ls files
         run: ls
-
-
-
-
+        
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist  # 指定发布目录
 
 
 
