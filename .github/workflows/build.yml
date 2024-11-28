@@ -1,0 +1,37 @@
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - main  # 或者你想要监控的其他分支
+  pull_request:
+    branches:
+      - main  # 或者你想要监控的其他分支
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '16'  # 指定 Node.js 版本
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run build
+        run: npm run build  # 如果你的项目有构建步骤
+
+      - name: Create dist.zip
+        run: zip -r dist.zip dist  # 将 dist 目录打包为 dist.zip
+
+      - name: Upload dist.zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-zip
+          path: dist.zip  # 上传 dist.zip 文件

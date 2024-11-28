@@ -1,26 +1,22 @@
 /**
+ * 让我们开始吧。
  *
- * Hey. My name's Samuel Reed. I'm a co-founder of BitMEX and frequent
- * open source contributor.
- *
- * I build interactive websites.
- *
- * How about some live coding?
+ * 来点现场编码吧？
  */
 
 /**
- * Let's begin. We start by animating... well, everything.
+ * 让我们开始吧。我们要为...所有东西添加动画。
  */
 
-* {
+ * {
   -webkit-transition: all 1s;
 }
 
 /**
- * That didn't do much. But you'll see.
+ * 这没什么大用。但你会看到的。
  *
- * Black on white is really boring,
- * so let's do something about it.
+ * 黑白配色太无聊了，
+ * 所以我们来改变一下。
  */
 
 html {
@@ -28,7 +24,7 @@ html {
 }
 
 /***
- * Hold on...
+ * 等等...
  */
 
 pre, a {
@@ -36,11 +32,11 @@ pre, a {
 }
 
 /**
- * That's better. Sorry about your eyes.
+ * 这样好多了。抱歉伤到你的眼睛。
  *
- * Working in this big empty space is tough.
+ * 在这个大空旷的空间里工作真不容易。
  *
- * I'm going to make a nice area for us to work in.
+ * 我将为我们工作创造一个不错的区域。
  */
 
 pre:not(:empty) {
@@ -59,8 +55,8 @@ pre:not(:empty) {
 }
 
 /**
- * Okay. We're going to start filling up the screen.
- * Let's get ready to do some work.
+ * 好吧。我们将开始填满屏幕。
+ * 让我们准备好开始工作。
  */
 
 #style-text {
@@ -69,8 +65,8 @@ pre:not(:empty) {
 }
 
 /**
- * This is good, but all the text is white!
- * Let's make it even more readable.
+ * 这很好，但所有文字都是白色的！
+ * 让我们让它更易读一些。
  */
 
 .comment       { color: #857F6B; font-style: italic; }
@@ -81,8 +77,8 @@ pre:not(:empty) {
 .value.px      { color: #F92772; }
 
 /**
- * Now we're getting somewhere.
- * Time to get a little perspective.
+ * 现在我们有进展了。
+ * 是时候让它更有立体感了。
  */
 
 body {
@@ -96,8 +92,8 @@ body {
 }
 
 /**
- * So, let's talk projects. That's why you're here, right?
- * I can't imagine you'd come just to see the pretty colors.
+ * 那么，我们来谈谈项目吧。这就是你们来这里的原因，对吧？
+ * 我无法想象你会只是来看这些漂亮的颜色。
  */
 
 pre:not(#style-text) {
